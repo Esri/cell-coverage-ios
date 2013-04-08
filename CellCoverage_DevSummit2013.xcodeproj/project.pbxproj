@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C11F19017023EF200199BF4 /* EDSFeaturesViewController+Editing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11F18F17023EF200199BF4 /* EDSFeaturesViewController+Editing.m */; };
+		1C11F19317023FF000199BF4 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11F19217023FF000199BF4 /* LoadingView.m */; };
+		1C126A1C16F770870030FFAF /* BluePushpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C126A1B16F770870030FFAF /* BluePushpin.png */; };
+		1C126A1E16F77D040030FFAF /* Route.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C126A1D16F77D040030FFAF /* Route.png */; };
+		1C126A3C16F7AFF60030FFAF /* EDSRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C126A3A16F7AFF50030FFAF /* EDSRouteViewController.m */; };
+		1C126A3D16F7AFF60030FFAF /* EDSRouteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C126A3B16F7AFF60030FFAF /* EDSRouteViewController.xib */; };
+		1C18D80416F60BAE00F147F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D80316F60BAE00F147F4 /* UIKit.framework */; };
+		1C18D80616F60BAE00F147F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D80516F60BAE00F147F4 /* Foundation.framework */; };
+		1C18D80816F60BAE00F147F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D80716F60BAE00F147F4 /* CoreGraphics.framework */; };
+		1C18D80E16F60BAE00F147F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D80C16F60BAE00F147F4 /* InfoPlist.strings */; };
+		1C18D81016F60BAE00F147F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C18D80F16F60BAE00F147F4 /* main.m */; };
+		1C18D81416F60BAE00F147F4 /* EDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C18D81316F60BAE00F147F4 /* EDSAppDelegate.m */; };
+		1C18D81616F60BAE00F147F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D81516F60BAE00F147F4 /* Default.png */; };
+		1C18D81816F60BAE00F147F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D81716F60BAE00F147F4 /* Default@2x.png */; };
+		1C18D81A16F60BAE00F147F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D81916F60BAE00F147F4 /* Default-568h@2x.png */; };
+		1C18D81D16F60BAE00F147F4 /* EDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C18D81C16F60BAE00F147F4 /* EDSViewController.m */; };
+		1C18D82016F60BAE00F147F4 /* EDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D81E16F60BAE00F147F4 /* EDSViewController.xib */; };
+		1C18D84216F60ECD00F147F4 /* tab-features-active45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D82E16F60ECD00F147F4 /* tab-features-active45x45.png */; };
+		1C18D84316F60ECD00F147F4 /* tab-features-active45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D82F16F60ECD00F147F4 /* tab-features-active45x45@2x.png */; };
+		1C18D84416F60ECD00F147F4 /* tab-features45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83016F60ECD00F147F4 /* tab-features45x45.png */; };
+		1C18D84516F60ECD00F147F4 /* tab-features45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83116F60ECD00F147F4 /* tab-features45x45@2x.png */; };
+		1C18D84616F60ECD00F147F4 /* tab-layers-active45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83216F60ECD00F147F4 /* tab-layers-active45x45.png */; };
+		1C18D84716F60ECD00F147F4 /* tab-layers-active45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83316F60ECD00F147F4 /* tab-layers-active45x45@2x.png */; };
+		1C18D84816F60ECD00F147F4 /* tab-layers45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83416F60ECD00F147F4 /* tab-layers45x45.png */; };
+		1C18D84916F60ECD00F147F4 /* tab-layers45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83516F60ECD00F147F4 /* tab-layers45x45@2x.png */; };
+		1C18D84A16F60ECD00F147F4 /* tab-places-active45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83616F60ECD00F147F4 /* tab-places-active45x45.png */; };
+		1C18D84B16F60ECD00F147F4 /* tab-places-active45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83716F60ECD00F147F4 /* tab-places-active45x45@2x.png */; };
+		1C18D84C16F60ECD00F147F4 /* tab-places45x45.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83816F60ECD00F147F4 /* tab-places45x45.png */; };
+		1C18D84D16F60ECD00F147F4 /* tab-places45x45@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C18D83916F60ECD00F147F4 /* tab-places45x45@2x.png */; };
+		1C18D84F16F61B1700F147F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D84E16F61B1700F147F4 /* CoreLocation.framework */; };
+		1C18D85116F61B1C00F147F4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85016F61B1C00F147F4 /* CoreText.framework */; };
+		1C18D85316F61B2900F147F4 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85216F61B2900F147F4 /* libc++.dylib */; };
+		1C18D85516F61B2F00F147F4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85416F61B2F00F147F4 /* libz.dylib */; };
+		1C18D85716F61B3500F147F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85616F61B3500F147F4 /* QuartzCore.framework */; };
+		1C18D85916F61B3900F147F4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85816F61B3900F147F4 /* MediaPlayer.framework */; };
+		1C18D85B16F61B4000F147F4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85A16F61B4000F147F4 /* MobileCoreServices.framework */; };
+		1C18D85D16F61B4600F147F4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85C16F61B4600F147F4 /* OpenGLES.framework */; };
+		1C18D85F16F61B4B00F147F4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C18D85E16F61B4B00F147F4 /* Security.framework */; };
+		1C228C7B170C759A001F60D1 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1C228C7A170C759A001F60D1 /* ArcGIS.bundle */; };
+		1C48A9DE16FA51C300EE029C /* EDSRouteViewController+Elevation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48A9DD16FA51C300EE029C /* EDSRouteViewController+Elevation.m */; };
+		1C48A9E116FA527B00EE029C /* ActivityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C48A9E016FA527B00EE029C /* ActivityAlertView.m */; };
+		1C755D5916F62ABC001CBD9C /* EDSPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C755D5716F62ABC001CBD9C /* EDSPlacesViewController.m */; };
+		1C755D5A16F62ABC001CBD9C /* EDSPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C755D5816F62ABC001CBD9C /* EDSPlacesViewController.xib */; };
+		1C7ECBFA16FBA354007DBEFA /* EDSElevationProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ECBF816FBA354007DBEFA /* EDSElevationProfileViewController.m */; };
+		1C7ECBFB16FBA354007DBEFA /* EDSElevationProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C7ECBF916FBA354007DBEFA /* EDSElevationProfileViewController.xib */; };
+		1CB0080816FCB9FA001A0066 /* EDSViewController+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0080716FCB9FA001A0066 /* EDSViewController+Routing.m */; };
+		1CB0080B16FCBE7B001A0066 /* EDSViewController+Analysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0080A16FCBE7B001A0066 /* EDSViewController+Analysis.m */; };
+		1CD1138816F8FEEB00337F36 /* EDSLayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1138616F8FEEA00337F36 /* EDSLayersViewController.m */; };
+		1CD1138916F8FEEB00337F36 /* EDSLayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1138716F8FEEB00337F36 /* EDSLayersViewController.xib */; };
+		1CD1139716F8FF8600337F36 /* EDSFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD1139516F8FF8600337F36 /* EDSFeaturesViewController.m */; };
+		1CD1139816F8FF8600337F36 /* EDSFeaturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD1139616F8FF8600337F36 /* EDSFeaturesViewController.xib */; };
+		1CE45E3916F8BB5C00354C14 /* YellowSignal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE45E3616F8BB5C00354C14 /* YellowSignal.png */; };
+		1CE45E3A16F8BB5C00354C14 /* GreenSignal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE45E3716F8BB5C00354C14 /* GreenSignal.png */; };
+		1CE45E3B16F8BB5C00354C14 /* RedSignal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE45E3816F8BB5C00354C14 /* RedSignal.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C11F18E17023EF200199BF4 /* EDSFeaturesViewController+Editing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EDSFeaturesViewController+Editing.h"; sourceTree = "<group>"; };
+		1C11F18F17023EF200199BF4 /* EDSFeaturesViewController+Editing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EDSFeaturesViewController+Editing.m"; sourceTree = "<group>"; };
+		1C11F19117023FF000199BF4 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		1C11F19217023FF000199BF4 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		1C126A1B16F770870030FFAF /* BluePushpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluePushpin.png; sourceTree = "<group>"; };
+		1C126A1D16F77D040030FFAF /* Route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Route.png; sourceTree = "<group>"; };
+		1C126A3916F7AFF50030FFAF /* EDSRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSRouteViewController.h; sourceTree = "<group>"; };
+		1C126A3A16F7AFF50030FFAF /* EDSRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSRouteViewController.m; sourceTree = "<group>"; };
+		1C126A3B16F7AFF60030FFAF /* EDSRouteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDSRouteViewController.xib; sourceTree = "<group>"; };
+		1C18D80016F60BAE00F147F4 /* CellCoverage_DevSummit2013.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellCoverage_DevSummit2013.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C18D80316F60BAE00F147F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C18D80516F60BAE00F147F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C18D80716F60BAE00F147F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C18D80B16F60BAE00F147F4 /* CellCoverage_DevSummit2013-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CellCoverage_DevSummit2013-Info.plist"; sourceTree = "<group>"; };
+		1C18D80D16F60BAE00F147F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C18D80F16F60BAE00F147F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C18D81116F60BAE00F147F4 /* CellCoverage_DevSummit2013-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CellCoverage_DevSummit2013-Prefix.pch"; sourceTree = "<group>"; };
+		1C18D81216F60BAE00F147F4 /* EDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDSAppDelegate.h; sourceTree = "<group>"; };
+		1C18D81316F60BAE00F147F4 /* EDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDSAppDelegate.m; sourceTree = "<group>"; };
+		1C18D81516F60BAE00F147F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C18D81716F60BAE00F147F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C18D81916F60BAE00F147F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C18D81B16F60BAE00F147F4 /* EDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDSViewController.h; sourceTree = "<group>"; };
+		1C18D81C16F60BAE00F147F4 /* EDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDSViewController.m; sourceTree = "<group>"; };
+		1C18D81F16F60BAE00F147F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EDSViewController.xib; sourceTree = "<group>"; };
+		1C18D82E16F60ECD00F147F4 /* tab-features-active45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-features-active45x45.png"; sourceTree = "<group>"; };
+		1C18D82F16F60ECD00F147F4 /* tab-features-active45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-features-active45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D83016F60ECD00F147F4 /* tab-features45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-features45x45.png"; sourceTree = "<group>"; };
+		1C18D83116F60ECD00F147F4 /* tab-features45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-features45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D83216F60ECD00F147F4 /* tab-layers-active45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-layers-active45x45.png"; sourceTree = "<group>"; };
+		1C18D83316F60ECD00F147F4 /* tab-layers-active45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-layers-active45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D83416F60ECD00F147F4 /* tab-layers45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-layers45x45.png"; sourceTree = "<group>"; };
+		1C18D83516F60ECD00F147F4 /* tab-layers45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-layers45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D83616F60ECD00F147F4 /* tab-places-active45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-places-active45x45.png"; sourceTree = "<group>"; };
+		1C18D83716F60ECD00F147F4 /* tab-places-active45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-places-active45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D83816F60ECD00F147F4 /* tab-places45x45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-places45x45.png"; sourceTree = "<group>"; };
+		1C18D83916F60ECD00F147F4 /* tab-places45x45@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-places45x45@2x.png"; sourceTree = "<group>"; };
+		1C18D84E16F61B1700F147F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1C18D85016F61B1C00F147F4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1C18D85216F61B2900F147F4 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1C18D85416F61B2F00F147F4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1C18D85616F61B3500F147F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1C18D85816F61B3900F147F4 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1C18D85A16F61B4000F147F4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1C18D85C16F61B4600F147F4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		1C18D85E16F61B4B00F147F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1C228C7A170C759A001F60D1 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		1C48A9DC16FA51C300EE029C /* EDSRouteViewController+Elevation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EDSRouteViewController+Elevation.h"; sourceTree = "<group>"; };
+		1C48A9DD16FA51C300EE029C /* EDSRouteViewController+Elevation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EDSRouteViewController+Elevation.m"; sourceTree = "<group>"; };
+		1C48A9DF16FA527B00EE029C /* ActivityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityAlertView.h; sourceTree = "<group>"; };
+		1C48A9E016FA527B00EE029C /* ActivityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityAlertView.m; sourceTree = "<group>"; };
+		1C755D5616F62ABC001CBD9C /* EDSPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSPlacesViewController.h; sourceTree = "<group>"; };
+		1C755D5716F62ABC001CBD9C /* EDSPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSPlacesViewController.m; sourceTree = "<group>"; };
+		1C755D5816F62ABC001CBD9C /* EDSPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDSPlacesViewController.xib; sourceTree = "<group>"; };
+		1C7ECBF716FBA354007DBEFA /* EDSElevationProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSElevationProfileViewController.h; sourceTree = "<group>"; };
+		1C7ECBF816FBA354007DBEFA /* EDSElevationProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSElevationProfileViewController.m; sourceTree = "<group>"; };
+		1C7ECBF916FBA354007DBEFA /* EDSElevationProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDSElevationProfileViewController.xib; sourceTree = "<group>"; };
+		1CB0080616FCB9FA001A0066 /* EDSViewController+Routing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EDSViewController+Routing.h"; sourceTree = "<group>"; };
+		1CB0080716FCB9FA001A0066 /* EDSViewController+Routing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EDSViewController+Routing.m"; sourceTree = "<group>"; };
+		1CB0080916FCBE7A001A0066 /* EDSViewController+Analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EDSViewController+Analysis.h"; sourceTree = "<group>"; };
+		1CB0080A16FCBE7B001A0066 /* EDSViewController+Analysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EDSViewController+Analysis.m"; sourceTree = "<group>"; };
+		1CD1138516F8FEEA00337F36 /* EDSLayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSLayersViewController.h; sourceTree = "<group>"; };
+		1CD1138616F8FEEA00337F36 /* EDSLayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSLayersViewController.m; sourceTree = "<group>"; };
+		1CD1138716F8FEEB00337F36 /* EDSLayersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDSLayersViewController.xib; sourceTree = "<group>"; };
+		1CD1139416F8FF8600337F36 /* EDSFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSFeaturesViewController.h; sourceTree = "<group>"; };
+		1CD1139516F8FF8600337F36 /* EDSFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSFeaturesViewController.m; sourceTree = "<group>"; };
+		1CD1139616F8FF8600337F36 /* EDSFeaturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EDSFeaturesViewController.xib; sourceTree = "<group>"; };
+		1CE45E3616F8BB5C00354C14 /* YellowSignal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowSignal.png; sourceTree = "<group>"; };
+		1CE45E3716F8BB5C00354C14 /* GreenSignal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenSignal.png; sourceTree = "<group>"; };
+		1CE45E3816F8BB5C00354C14 /* RedSignal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedSignal.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C18D7FD16F60BAE00F147F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18D85F16F61B4B00F147F4 /* Security.framework in Frameworks */,
+				1C18D85D16F61B4600F147F4 /* OpenGLES.framework in Frameworks */,
+				1C18D85B16F61B4000F147F4 /* MobileCoreServices.framework in Frameworks */,
+				1C18D85916F61B3900F147F4 /* MediaPlayer.framework in Frameworks */,
+				1C18D85716F61B3500F147F4 /* QuartzCore.framework in Frameworks */,
+				1C18D85516F61B2F00F147F4 /* libz.dylib in Frameworks */,
+				1C18D85316F61B2900F147F4 /* libc++.dylib in Frameworks */,
+				1C18D85116F61B1C00F147F4 /* CoreText.framework in Frameworks */,
+				1C18D84F16F61B1700F147F4 /* CoreLocation.framework in Frameworks */,
+				1C18D80416F60BAE00F147F4 /* UIKit.framework in Frameworks */,
+				1C18D80616F60BAE00F147F4 /* Foundation.framework in Frameworks */,
+				1C18D80816F60BAE00F147F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C18D7F716F60BAE00F147F4 = {
+			isa = PBXGroup;
+			children = (
+				1C18D80916F60BAE00F147F4 /* CellCoverage_DevSummit2013 */,
+				1C18D80216F60BAE00F147F4 /* Frameworks */,
+				1C18D80116F60BAE00F147F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C18D80116F60BAE00F147F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C18D80016F60BAE00F147F4 /* CellCoverage_DevSummit2013.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C18D80216F60BAE00F147F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C18D85E16F61B4B00F147F4 /* Security.framework */,
+				1C18D85C16F61B4600F147F4 /* OpenGLES.framework */,
+				1C18D85A16F61B4000F147F4 /* MobileCoreServices.framework */,
+				1C18D85816F61B3900F147F4 /* MediaPlayer.framework */,
+				1C18D85616F61B3500F147F4 /* QuartzCore.framework */,
+				1C18D85416F61B2F00F147F4 /* libz.dylib */,
+				1C18D85216F61B2900F147F4 /* libc++.dylib */,
+				1C18D85016F61B1C00F147F4 /* CoreText.framework */,
+				1C18D84E16F61B1700F147F4 /* CoreLocation.framework */,
+				1C18D80316F60BAE00F147F4 /* UIKit.framework */,
+				1C18D80516F60BAE00F147F4 /* Foundation.framework */,
+				1C18D80716F60BAE00F147F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C18D80916F60BAE00F147F4 /* CellCoverage_DevSummit2013 */ = {
+			isa = PBXGroup;
+			children = (
+				1C755D5B16F62F6E001CBD9C /* ViewControllers */,
+				1C18D81216F60BAE00F147F4 /* EDSAppDelegate.h */,
+				1C18D81316F60BAE00F147F4 /* EDSAppDelegate.m */,
+				1C18D80A16F60BAE00F147F4 /* Supporting Files */,
+			);
+			path = CellCoverage_DevSummit2013;
+			sourceTree = "<group>";
+		};
+		1C18D80A16F60BAE00F147F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C228C7A170C759A001F60D1 /* ArcGIS.bundle */,
+				1C48A9DF16FA527B00EE029C /* ActivityAlertView.h */,
+				1C48A9E016FA527B00EE029C /* ActivityAlertView.m */,
+				1C11F19117023FF000199BF4 /* LoadingView.h */,
+				1C11F19217023FF000199BF4 /* LoadingView.m */,
+				1C18D81E16F60BAE00F147F4 /* EDSViewController.xib */,
+				1C755D5816F62ABC001CBD9C /* EDSPlacesViewController.xib */,
+				1C126A3B16F7AFF60030FFAF /* EDSRouteViewController.xib */,
+				1CD1138716F8FEEB00337F36 /* EDSLayersViewController.xib */,
+				1CD1139616F8FF8600337F36 /* EDSFeaturesViewController.xib */,
+				1C7ECBF916FBA354007DBEFA /* EDSElevationProfileViewController.xib */,
+				1CE45E3616F8BB5C00354C14 /* YellowSignal.png */,
+				1CE45E3716F8BB5C00354C14 /* GreenSignal.png */,
+				1CE45E3816F8BB5C00354C14 /* RedSignal.png */,
+				1C126A1D16F77D040030FFAF /* Route.png */,
+				1C126A1B16F770870030FFAF /* BluePushpin.png */,
+				1C18D82E16F60ECD00F147F4 /* tab-features-active45x45.png */,
+				1C18D82F16F60ECD00F147F4 /* tab-features-active45x45@2x.png */,
+				1C18D83016F60ECD00F147F4 /* tab-features45x45.png */,
+				1C18D83116F60ECD00F147F4 /* tab-features45x45@2x.png */,
+				1C18D83216F60ECD00F147F4 /* tab-layers-active45x45.png */,
+				1C18D83316F60ECD00F147F4 /* tab-layers-active45x45@2x.png */,
+				1C18D83416F60ECD00F147F4 /* tab-layers45x45.png */,
+				1C18D83516F60ECD00F147F4 /* tab-layers45x45@2x.png */,
+				1C18D83616F60ECD00F147F4 /* tab-places-active45x45.png */,
+				1C18D83716F60ECD00F147F4 /* tab-places-active45x45@2x.png */,
+				1C18D83816F60ECD00F147F4 /* tab-places45x45.png */,
+				1C18D83916F60ECD00F147F4 /* tab-places45x45@2x.png */,
+				1C18D80B16F60BAE00F147F4 /* CellCoverage_DevSummit2013-Info.plist */,
+				1C18D80C16F60BAE00F147F4 /* InfoPlist.strings */,
+				1C18D80F16F60BAE00F147F4 /* main.m */,
+				1C18D81116F60BAE00F147F4 /* CellCoverage_DevSummit2013-Prefix.pch */,
+				1C18D81516F60BAE00F147F4 /* Default.png */,
+				1C18D81716F60BAE00F147F4 /* Default@2x.png */,
+				1C18D81916F60BAE00F147F4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C755D5B16F62F6E001CBD9C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1C18D81B16F60BAE00F147F4 /* EDSViewController.h */,
+				1C18D81C16F60BAE00F147F4 /* EDSViewController.m */,
+				1CB0080616FCB9FA001A0066 /* EDSViewController+Routing.h */,
+				1CB0080716FCB9FA001A0066 /* EDSViewController+Routing.m */,
+				1CB0080916FCBE7A001A0066 /* EDSViewController+Analysis.h */,
+				1CB0080A16FCBE7B001A0066 /* EDSViewController+Analysis.m */,
+				1CD1138516F8FEEA00337F36 /* EDSLayersViewController.h */,
+				1CD1138616F8FEEA00337F36 /* EDSLayersViewController.m */,
+				1C755D5616F62ABC001CBD9C /* EDSPlacesViewController.h */,
+				1C755D5716F62ABC001CBD9C /* EDSPlacesViewController.m */,
+				1CD1139416F8FF8600337F36 /* EDSFeaturesViewController.h */,
+				1CD1139516F8FF8600337F36 /* EDSFeaturesViewController.m */,
+				1C11F18E17023EF200199BF4 /* EDSFeaturesViewController+Editing.h */,
+				1C11F18F17023EF200199BF4 /* EDSFeaturesViewController+Editing.m */,
+				1C126A3916F7AFF50030FFAF /* EDSRouteViewController.h */,
+				1C126A3A16F7AFF50030FFAF /* EDSRouteViewController.m */,
+				1C48A9DC16FA51C300EE029C /* EDSRouteViewController+Elevation.h */,
+				1C48A9DD16FA51C300EE029C /* EDSRouteViewController+Elevation.m */,
+				1C7ECBF716FBA354007DBEFA /* EDSElevationProfileViewController.h */,
+				1C7ECBF816FBA354007DBEFA /* EDSElevationProfileViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C18D7FF16F60BAE00F147F4 /* CellCoverage_DevSummit2013 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C18D82316F60BAE00F147F4 /* Build configuration list for PBXNativeTarget "CellCoverage_DevSummit2013" */;
+			buildPhases = (
+				1C18D7FC16F60BAE00F147F4 /* Sources */,
+				1C18D7FD16F60BAE00F147F4 /* Frameworks */,
+				1C18D7FE16F60BAE00F147F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellCoverage_DevSummit2013;
+			productName = CellCoverage_DevSummit2013;
+			productReference = 1C18D80016F60BAE00F147F4 /* CellCoverage_DevSummit2013.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C18D7F816F60BAE00F147F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EDS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mark Dostal";
+			};
+			buildConfigurationList = 1C18D7FB16F60BAE00F147F4 /* Build configuration list for PBXProject "CellCoverage_DevSummit2013" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C18D7F716F60BAE00F147F4;
+			productRefGroup = 1C18D80116F60BAE00F147F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C18D7FF16F60BAE00F147F4 /* CellCoverage_DevSummit2013 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C18D7FE16F60BAE00F147F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18D80E16F60BAE00F147F4 /* InfoPlist.strings in Resources */,
+				1C18D81616F60BAE00F147F4 /* Default.png in Resources */,
+				1C18D81816F60BAE00F147F4 /* Default@2x.png in Resources */,
+				1C18D81A16F60BAE00F147F4 /* Default-568h@2x.png in Resources */,
+				1C18D82016F60BAE00F147F4 /* EDSViewController.xib in Resources */,
+				1C18D84216F60ECD00F147F4 /* tab-features-active45x45.png in Resources */,
+				1C18D84316F60ECD00F147F4 /* tab-features-active45x45@2x.png in Resources */,
+				1C18D84416F60ECD00F147F4 /* tab-features45x45.png in Resources */,
+				1C18D84516F60ECD00F147F4 /* tab-features45x45@2x.png in Resources */,
+				1C18D84616F60ECD00F147F4 /* tab-layers-active45x45.png in Resources */,
+				1C18D84716F60ECD00F147F4 /* tab-layers-active45x45@2x.png in Resources */,
+				1C18D84816F60ECD00F147F4 /* tab-layers45x45.png in Resources */,
+				1C18D84916F60ECD00F147F4 /* tab-layers45x45@2x.png in Resources */,
+				1C18D84A16F60ECD00F147F4 /* tab-places-active45x45.png in Resources */,
+				1C18D84B16F60ECD00F147F4 /* tab-places-active45x45@2x.png in Resources */,
+				1C18D84C16F60ECD00F147F4 /* tab-places45x45.png in Resources */,
+				1C18D84D16F60ECD00F147F4 /* tab-places45x45@2x.png in Resources */,
+				1C755D5A16F62ABC001CBD9C /* EDSPlacesViewController.xib in Resources */,
+				1C126A1C16F770870030FFAF /* BluePushpin.png in Resources */,
+				1C126A1E16F77D040030FFAF /* Route.png in Resources */,
+				1C126A3D16F7AFF60030FFAF /* EDSRouteViewController.xib in Resources */,
+				1CE45E3916F8BB5C00354C14 /* YellowSignal.png in Resources */,
+				1CE45E3A16F8BB5C00354C14 /* GreenSignal.png in Resources */,
+				1CE45E3B16F8BB5C00354C14 /* RedSignal.png in Resources */,
+				1CD1138916F8FEEB00337F36 /* EDSLayersViewController.xib in Resources */,
+				1CD1139816F8FF8600337F36 /* EDSFeaturesViewController.xib in Resources */,
+				1C7ECBFB16FBA354007DBEFA /* EDSElevationProfileViewController.xib in Resources */,
+				1C228C7B170C759A001F60D1 /* ArcGIS.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C18D7FC16F60BAE00F147F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18D81016F60BAE00F147F4 /* main.m in Sources */,
+				1C18D81416F60BAE00F147F4 /* EDSAppDelegate.m in Sources */,
+				1C18D81D16F60BAE00F147F4 /* EDSViewController.m in Sources */,
+				1C755D5916F62ABC001CBD9C /* EDSPlacesViewController.m in Sources */,
+				1C126A3C16F7AFF60030FFAF /* EDSRouteViewController.m in Sources */,
+				1CD1138816F8FEEB00337F36 /* EDSLayersViewController.m in Sources */,
+				1CD1139716F8FF8600337F36 /* EDSFeaturesViewController.m in Sources */,
+				1C48A9DE16FA51C300EE029C /* EDSRouteViewController+Elevation.m in Sources */,
+				1C48A9E116FA527B00EE029C /* ActivityAlertView.m in Sources */,
+				1C7ECBFA16FBA354007DBEFA /* EDSElevationProfileViewController.m in Sources */,
+				1CB0080816FCB9FA001A0066 /* EDSViewController+Routing.m in Sources */,
+				1CB0080B16FCBE7B001A0066 /* EDSViewController+Analysis.m in Sources */,
+				1C11F19017023EF200199BF4 /* EDSFeaturesViewController+Editing.m in Sources */,
+				1C11F19317023FF000199BF4 /* LoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C18D80C16F60BAE00F147F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C18D80D16F60BAE00F147F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C18D81E16F60BAE00F147F4 /* EDSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C18D81F16F60BAE00F147F4 /* en */,
+			);
+			name = EDSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C18D82116F60BAE00F147F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		1C18D82216F60BAE00F147F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		1C18D82416F60BAE00F147F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellCoverage_DevSummit2013/CellCoverage_DevSummit2013-Prefix.pch";
+				INFOPLIST_FILE = "CellCoverage_DevSummit2013/CellCoverage_DevSummit2013-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C18D82516F60BAE00F147F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellCoverage_DevSummit2013/CellCoverage_DevSummit2013-Prefix.pch";
+				INFOPLIST_FILE = "CellCoverage_DevSummit2013/CellCoverage_DevSummit2013-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C18D7FB16F60BAE00F147F4 /* Build configuration list for PBXProject "CellCoverage_DevSummit2013" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C18D82116F60BAE00F147F4 /* Debug */,
+				1C18D82216F60BAE00F147F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C18D82316F60BAE00F147F4 /* Build configuration list for PBXNativeTarget "CellCoverage_DevSummit2013" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C18D82416F60BAE00F147F4 /* Debug */,
+				1C18D82516F60BAE00F147F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C18D7F816F60BAE00F147F4 /* Project object */;
+}
